@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Catamaran:wght@700&family=Dancing+Script&family=Montserrat&family=Poppins:ital,wght@0,500;1,400&family=Roboto:wght@700&family=Urbanist&family=Xanh+Mono:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Catamaran:wght@700&family=Dancing+Script:wght@700&family=Montserrat&family=Poppins:ital,wght@0,500;1,400&family=Roboto:wght@700&family=Urbanist&family=Xanh+Mono:ital@1&display=swap");
+body {
+  font-family: "Urbanist", sans-serif;
+}
+// NavBar
+nav {
+  .nav-item {
+    color: teal;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  h2 {
+    font: {
+      family: "Catamaran", sans-serif;
+      size: 40px;
+      weight: bolder;
+    }
+
+    color: teal;
+  }
+  .nav-icon {
+    position: absolute;
+    top: 25%;
+    right: 15px;
+  }
+}
+// Announce
+.announce {
+  height: 30px;
+  background-color: teal;
+  color: white;
+}
+// Home
+#home {
+  .home_item {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    .layer {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+// category
+#category {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .overLay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+// allProducts
+#products {
+  .layer_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all 0.6s;
+  }
+  .product_item {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin: auto;
+    padding: 20px;
+    :hover.layer_product {
+      opacity: 1;
+    }
+  }
+  .bg-icon {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+// NewsLetter
+#newsLetter {
+  background-image: url(../img/black-friday-sale-banner-template-mobile-mockup.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  .newsLetter_layer {
+    h2 {
+      font-size: 70px;
+      font-weight: 700;
+      color: teal;
+    }
+
+    .btn_NewsLetter {
+      width: 60px;
+      height: 40px;
+      background-color: teal;
+      border: none;
+      color: white;
+    }
+    input {
+      height: 40px;
+      width: 50%;
+      border: 1px solid rgb(174, 173, 173);
+    }
+  }
+}
+// Footer
+footer {
+  padding: 30px 0;
+  .footer_icons {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 6px;
+    cursor: pointer;
+  }
+  .icon1 {
+    background-color: rgb(45, 134, 255);
+  }
+  .icon2 {
+    background-color: rgb(253, 4, 174);
+  }
+  .icon3 {
+    background-color: rgb(28, 147, 228);
+  }
+  .icon4 {
+    background-color: rgb(218, 0, 25);
+  }
+}
+.bag {
+  .cart_img {
+    width: 70px;
+  }
+  h2 {
+    color: teal;
+    font-weight: 700;
+  }
+}

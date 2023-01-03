@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Catamaran:wght@700&family=Dancing+Script&family=Montserrat&family=Poppins:ital,wght@0,500;1,400&family=Roboto:wght@700&family=Urbanist&family=Xanh+Mono:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Catamaran:wght@700&family=Dancing+Script:wght@700&family=Montserrat&family=Poppins:ital,wght@0,500;1,400&family=Roboto:wght@700&family=Urbanist&family=Xanh+Mono:ital@1&display=swap");
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+nav .nav-item {
+  color: teal;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav h2 {
+  font-family: "Catamaran", sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  color: teal;
+}
+
+nav .nav-icon {
+  position: absolute;
+  top: 25%;
+  right: 15px;
+}
+
+.announce {
+  height: 30px;
+  background-color: teal;
+  color: white;
+}
+
+#home .home_item {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#home .home_item .layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#category img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#category .overLay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#products .layer_product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+#products .product_item {
+  width: 80%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: auto;
+  padding: 20px;
+}
+
+#products .product_item :hover.layer_product {
+  opacity: 1;
+}
+
+#products .bg-icon {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#newsLetter {
+  background-image: url(../img/black-friday-sale-banner-template-mobile-mockup.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+#newsLetter .newsLetter_layer h2 {
+  font-size: 70px;
+  font-weight: 700;
+  color: teal;
+}
+
+#newsLetter .newsLetter_layer .btn_NewsLetter {
+  width: 60px;
+  height: 40px;
+  background-color: teal;
+  border: none;
+  color: white;
+}
+
+#newsLetter .newsLetter_layer input {
+  height: 40px;
+  width: 50%;
+  border: 1px solid #aeadad;
+}
+
+footer {
+  padding: 30px 0;
+}
+
+footer .footer_icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+footer .icon1 {
+  background-color: #2d86ff;
+}
+
+footer .icon2 {
+  background-color: #fd04ae;
+}
+
+footer .icon3 {
+  background-color: #1c93e4;
+}
+
+footer .icon4 {
+  background-color: #da0019;
+}
+
+.bag .cart_img {
+  width: 70px;
+}
+
+.bag h2 {
+  color: teal;
+  font-weight: 700;
+}
+/*# sourceMappingURL=Style.css.map */
