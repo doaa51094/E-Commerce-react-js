@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/E-Commerce-react-js/static/css/main.761400ac.css",
+    "main.js": "/E-Commerce-react-js/static/js/main.d3f83d2b.js",
+    "static/js/787.7f320c1d.chunk.js": "/E-Commerce-react-js/static/js/787.7f320c1d.chunk.js",
+    "static/media/bg.jpg": "/E-Commerce-react-js/static/media/bg.de352bb41f987e19b68b.jpg",
+    "static/media/black-friday-sale-banner-template-mobile-mockup.jpg": "/E-Commerce-react-js/static/media/black-friday-sale-banner-template-mobile-mockup.d71b2b337bd7a5350088.jpg",
+    "static/media/fa-solid-900.ttf": "/E-Commerce-react-js/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/E-Commerce-react-js/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/E-Commerce-react-js/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/E-Commerce-react-js/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/E-Commerce-react-js/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/E-Commerce-react-js/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/E-Commerce-react-js/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/E-Commerce-react-js/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/E-Commerce-react-js/index.html",
+    "main.761400ac.css.map": "/E-Commerce-react-js/static/css/main.761400ac.css.map",
+    "main.d3f83d2b.js.map": "/E-Commerce-react-js/static/js/main.d3f83d2b.js.map",
+    "787.7f320c1d.chunk.js.map": "/E-Commerce-react-js/static/js/787.7f320c1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.761400ac.css",
+    "static/js/main.d3f83d2b.js"
+  ]
+}
